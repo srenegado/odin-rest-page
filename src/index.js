@@ -1,1 +1,3 @@
-console.log("Hmph");
+import { loadPage } from "./load_page.js";
+
+loadPage();
