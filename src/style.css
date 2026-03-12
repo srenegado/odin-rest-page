@@ -1,0 +1,34 @@
+:root {
+  --bg-color: antiquewhite;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: var(--bg-color);
+}
+
+header {
+  text-align: center;
+}
+
+nav > button {
+  background-color: var(--bg-color);
+  margin: 8px;
+  font-size: 1.2rem;
+  border-style: none;
+}
+
+#content {
+  padding: 8px;
+  margin: 8px;
+}
+
+.headline-wrapper {
+  text-align: center;
+}
+
+.headline {
+  font-size: 5rem;
+  font-weight: 900;
+}
