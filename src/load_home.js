@@ -1,6 +1,6 @@
 import "./style.css";
 
-export function loadPage() {
+export function loadHome() {
   const content = document.querySelector("#content");
   const headline = document.createElement("span");
   const headlineWrapper = document.createElement("div");
