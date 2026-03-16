@@ -28,7 +28,17 @@ nav > button {
   text-align: center;
 }
 
+.blurb-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .headline {
   font-size: 5rem;
   font-weight: 900;
+}
+
+.blurb {
+  font-size: 1rem;
 }
